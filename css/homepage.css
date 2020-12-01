@@ -25,6 +25,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .logo-img{
+      width: 70px;
+  }
+
+
   .suzette-img{
       width: 100%;
   }
