@@ -1,38 +1,11 @@
 
-
 .header-img{
-    max-width: 100%;
+  max-width: 100%;
 }
-.navbar-default {
-    background-color: transparent;
-    border: none;
-  }
 
-.shade {
-    width: 100%;
-    height: 318.487px;
-    background: rgba(0,0,0,0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  .header-logo {
-    margin: 0;
-    text-align: center;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .logo-img{
-      width: 70px;
-  }
-
-
-  .suzette-img{
-      width: 100%;
-  }
-
- 
-  
+.logo-img{
+  width: 100px;
+}
+.article-img{
+  width: 100%;
+}
