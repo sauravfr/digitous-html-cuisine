@@ -52,32 +52,37 @@
 
     </article>
     <footer>
-        <div class="container ">
-            <div class="bg-dark">
+        <div class="page-footer ">
                 <div class="row">
                     <div class="col-sm">
                         <h3>Catégories</h3>
-                        <a href="#">Revues</a>
-                        <a href="#">Recettes</a>
-                        <a href="#">Découvertes</a>
+                        <ul>
+                            <li> <a href="#">Revues</a></li>
+                            <li><a href="#">Recettes</a></li>
+                            <li> <a href="#">Découvertes</a></li>
+                        </ul>                       
                     </div>
                     <div class="col-sm">
                         <h3>Archives</h3>
-                        <a href="#">2019</a>
-                        <a href="#">2018</a>
-                        <a href="#">2017</a>
+                        <ul>
+                            <li> <a href="#">2019</a></li>
+                            <li><a href="#">2018</a></li>
+                            <li><a href="#">2017</a></li>
+                        </ul>
                     </div>
                     <div class="col-sm">
                         <h3>Newsletter</h3>
-                        <label for="Email">Email</label>
-                        <input type="email">
+                        <form action="post">
+                            <div class="form-group">
+                                <label for="">Email</label>
+                                <input class="form-control" type="email" name="email" placeholder="Email" id="">
+                                <button class="btn btn-primary" type="button">S'inscrire</button>
+                            </div>
+                            
+                        </form>
                         <label>Partager</label>
                     </div>
                 </div>
-    
-
-            </div>
-           
             
         </div>
     </footer>
