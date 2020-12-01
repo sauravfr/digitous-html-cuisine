@@ -1,11 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
+
+body {
+    position: relative;
 }
 
 .header-img{
     max-width: 100%;
 }
+.navbar-default {
+    background-color: transparent;
+    border: none;
+  }
 
 .shade {
     width: 100%;
