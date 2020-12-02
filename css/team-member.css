@@ -1,0 +1,11 @@
+.team-member-img{
+    max-width: 100%;
+}
+
+.img-antoine{
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+

@@ -1,0 +1,8 @@
+/* This is footer style */
+
+ul{
+	list-style: none;
+}
+ul li a{
+  color: white;
+}
