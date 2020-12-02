@@ -4,27 +4,27 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="./css/bootstrap.css"/>
+    <script src="https://kit.fontawesome.com/ec60810067.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/homepage.css"/>
     <title>Cui'zen Home Page</title>
 </head>
 <body>
     <header>
-        <div class="d-flex justify-content-center">
-    <nav class="navbar fixed-top navbar-dark">
-        <div class="container">
-            <h3 class="text-white">Cui'zen</h3>
-        </div>
-    </nav>
+        <div class=" d-flex justify-content-center">
+            <nav class="navbar fixed-top navbar-dark">
+                <div class="container">
+                    <h3 class="text-white">Cui'zen</h3>
+                </div>
+            </nav>
             <div class="text-white position-absolute mt-5 " >
                 <div >
                     <img class=" ml-2 logo-img" src="./img/logo_square_white.png" alt="header-logo-img"/>
             
                     <h2 class="">Cui'zen</h2>
                     <h4>La mag cuizen</h4>
-
                 </div>
-             </div>
-        
+            </div>
+            <div id="color-overlay"></div>
             <img class="header-img" src="./img/header.jpg" alt="img-cuizen-header">
         </div>
     </header> <!--------- /header-------------->
@@ -53,7 +53,7 @@
                 </div>
         </div>
     
-    </article>
+    </article><!--------- /article-------------->
     <footer>
         <div class="page-footer bg-dark text-white ">
                 <div class="row">
@@ -75,20 +75,26 @@
                     </div>
                     <div class="col-sm">
                         <h3>Newsletter</h3>
-                        <form action="post">
-                            <div class="form-group">
-                                <label for="">Email</label>
-                                <input class="form-control" type="email" name="email" placeholder="Email" id="">
-                                <button class="btn btn-primary" type="button">S'inscrire</button>
-                            </div>
-                            
-                        </form>
+                        <div class="container ">
+                            <form action="post">
+                                <div class="form-group">
+                                    <input class="form-control" type="email" name="email" placeholder="Email">
+                                    <button class="btn btn-outline-light" type="button">S'inscrire</button>
+                                </div>
+                            </form>
+                        </div>
                         <label>Partager</label>
+                        <div>
+                            <a class="text-white" href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a class="text-white" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="text-white" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="text-white" href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
                     </div>
                 </div>
             
         </div>
-    </footer>
+    </footer> <!--------- /footer-------------->
     
 </body>
 </html>

@@ -9,3 +9,9 @@
 .article-img{
   width: 100%;
 }
+ul{
+	list-style: none;
+}
+ul li a{
+  color: white;
+}
