@@ -1,42 +1,13 @@
-.logo-img{
-  width: 100px;
-}
+homepage-css
+header{
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("../img/header.jpg") no-repeat;
+  max-width: 100%;
+ }
+
+
 .article-img{
   width: 100%;
 }
-
-.shade {
-    width: 100%;
-    height: 318.487px;
-    background: rgba(0,0,0,0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-   <div class="col-sm">
-                        <img class="article-img" src="./img/articles/metro/metro-header.jpg" alt="">
-                        
-                        <h4 class="p-2">Le Métro dessert</h4>
-                        <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis</p>
-                    </div>
-                    <div class="col-sm ">
-                        <img class="article-img" src="./img/articles/vitaly/vitaly-header.jpg" alt="">
-                        
-                        <h4 class="p-2">Vitaly, le végan italien</h4>
-                        <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
-
-
-
-
-
-
-
-                 <div class="row ">
-                    <div class=" col-sm col-md-2">
-                    </div>    
-                    <div class="col-sm col-md-8">
-                        <h4 class="p-2"></h4>
-                        <p class=""></p>
-                     </div>
-                </div>
