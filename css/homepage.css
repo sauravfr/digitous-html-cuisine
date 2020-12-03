@@ -11,3 +11,12 @@ header{
  .article-img{
   width: 100%;
 }
+
+footer {
+  background-color: black;
+  padding-top: 70px;
+}
+a{
+  color: white;
+}
+
