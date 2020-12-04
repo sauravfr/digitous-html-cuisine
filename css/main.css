@@ -5,7 +5,7 @@ body{
   padding: 0;
 }
 
-header{
+header h2 h3 h4{
   font-family: Courgette, serif ;
 
 }
@@ -22,4 +22,27 @@ ul{
 }
 ul li a{
   color: white;
+}
+
+footer {
+  background-color: black;
+  padding-top: 70px;
+}
+footer a{
+  color: white;
+}
+footer ul{
+  text-decoration: underline;
+  padding: 4px;
+}
+.social-icon li{
+  margin: 0px 4px;
+}
+
+.social-icon i{
+  padding: 8px;
+  background-color: white;
+  color: black;
+  font-size: 22px;
+
 }
