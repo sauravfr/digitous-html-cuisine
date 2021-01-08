@@ -1,48 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-
-body{
-  margin: 0;
-  padding: 0;
-}
-
-header h2 h3 h4{
-  font-family: Courgette, serif ;
-
-}
-
-.header-img{
-  max-width: 100%;
-}
-
-
-/* This is footer style */
-
-ul{
-	list-style: none;
-}
-ul li a{
-  color: white;
-}
-
-footer {
-  background-color: black;
-  padding-top: 70px;
-}
-footer a{
-  color: white;
-}
-footer ul{
-  text-decoration: underline;
-  padding: 4px;
-}
-.social-icon li{
-  margin: 0px 4px;
-}
-
-.social-icon i{
-  padding: 8px;
-  background-color: white;
-  color: black;
-  font-size: 22px;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
